@@ -23,7 +23,7 @@ deploy:
   file_glob: true
   provider: releases
   api_key: 
-    secure: $GITPERM
+    secure: $pushToGit
     
   file:
     - "README.md"
