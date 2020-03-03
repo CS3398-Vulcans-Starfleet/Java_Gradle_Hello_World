@@ -11,7 +11,7 @@ public class HelloWorld
 public class HelloWorld
 {
 	/* master comment */
-  // Mason's comment
+  // Mason's comment.
 >>>>>>> Stashed changes
   public static void main(String[] args) {
     LocalTime currentTime = new LocalTime();
