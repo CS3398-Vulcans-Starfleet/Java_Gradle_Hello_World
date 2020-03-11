@@ -35,8 +35,7 @@ public class TestGreeter {
    @DisplayName("Test for Name='Sean'")
    public void testGreeterSean() 
    {
-
-      g.setName("World");
+      g.setName("Sean");
       assertEquals(g.getName(),"Sean");
       assertEquals(g.sayHello(),"Hello Sean!");
    }
