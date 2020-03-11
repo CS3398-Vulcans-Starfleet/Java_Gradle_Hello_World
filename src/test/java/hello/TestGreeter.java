@@ -20,8 +20,6 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello!");
    }
 
-
-
    @Test
    @DisplayName("Test for Name='World'")
    public void testGreeter() 
@@ -35,7 +33,7 @@ public class TestGreeter {
    //Test for assignment 11 Sean Summers
    @Test
    @DisplayName("Test for Name='Sean'")
-   public void testGreeter() 
+   public void testGreeterSean() 
    {
 
       g.setName("World");
