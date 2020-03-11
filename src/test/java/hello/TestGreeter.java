@@ -32,7 +32,7 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
    }
 
-   //added test for the greeter to say Hello Anthony 
+   //Added test for the greeter to say Hello Anthony 
    @Test
    @DisplayName("Test for Name='Anthony'")
    public void testGreeterAnthony()
