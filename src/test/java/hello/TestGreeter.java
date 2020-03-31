@@ -13,7 +13,7 @@ public class TestGreeter {
 
    @Test
    @DisplayName("Test for Empty Name")
-   public void testGreeterEmpty() 
+   public void testGreeterEmpty()
 
    {
       assertEquals(g.getName(),"");
@@ -24,7 +24,7 @@ public class TestGreeter {
 
    @Test
    @DisplayName("Test for Name='World'")
-   public void testGreeter() 
+   public void testGreeter()
    {
 
       g.setName("World");
@@ -32,4 +32,12 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
    }
 
+   @DisplayName("Test for Name='Craig'") 
+   public void testGreeter1()
+   {
+
+      g.setName("Craig");
+      assertEquals(g.getName(),"Craig");
+      assertEquals(g.sayHello(),"Hello Craig!");
+   }
 }
